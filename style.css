@@ -1,0 +1,193 @@
+#grid {
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    background-color: green;
+    border: 1px solid black;
+}
+
+
+div {
+    border: 5px solid black;
+}
+
+#div1 {
+    grid-area: 1/1 / 4/1;
+    background-color: rgb(255, 255, 255);
+}
+
+#div2 {
+    grid-area: 1/2 / 1/9;
+    background-color: white;
+}
+
+#div3 {
+    grid-area: 1/9 / 1/17;
+    background-color: white;
+}
+
+#div4 {
+    background-color: white;
+    grid-area: 1/18 / 8/17;
+}
+
+#div5 {
+    grid-area: 1/19 / 8/18;
+    background-color: yellow;
+}
+
+#div6 {
+    background-color: blue;
+    grid-area: 2/2 / 4 /9;
+}
+
+#div7 {
+    background-color: white;
+    grid-area: 2/9 / 4/12;
+}
+
+#div8 {
+    background-color: blue;
+    grid-area: 2/12 / 4/17;
+}
+
+#div9 {
+    background-color: black;
+    grid-area: 4/1 / 10/1;
+}
+
+
+#div10 {
+    background-color: white;
+    grid-area: 4/2 / 10/4;
+}
+
+
+#div11 {
+    background-color: rgb(0, 0, 0);
+    grid-area: 4/5 / 14/4;
+}
+
+
+#div12 {
+    background-color: white;
+    grid-area: 4/8 / 8/5;
+}
+
+#div13 {
+    background-color: white;
+    grid-area: 4/9 / 8/8;
+}
+
+
+#div14 {
+    background-color: yellow;
+    grid-area: 4/9 / 8/12;
+}
+
+#div15 {
+    background-color: red;
+    grid-area: 4/12 / 8/16;
+}
+
+
+#div16 {
+    background-color: red;
+    grid-area: 4/16 / 8/17;
+}
+
+#div17 {
+    background-color: yellow;
+    grid-area: 8/5 / 10/5;
+}
+
+
+#div18 {
+    background-color: red;
+    grid-area: 8/6 / 10/9;
+}
+
+#div19 {
+    background-color: blue;
+    grid-area: 8/9 / 10/12;
+}
+
+
+#div20 {
+    background-color: white;
+    grid-area: 8/12 / 10/16;
+}
+
+#div21 {
+    background-color: white;
+    grid-area: 8/16 / 10/17;
+}
+
+#div22 {
+    background-color: rgb(0, 0, 0);
+    grid-area: 8/17 / 10/19;
+}
+
+
+#div23 {
+    background-color: white;
+    grid-area: 10/1 / 14/1;
+}
+
+#div24 {
+    background-color: red;
+    grid-area: 10/2 / 14/4;
+}
+
+
+#div25 {
+    background-color: white;
+    grid-area: 14/1 / 15/5
+}
+
+#div26 {
+    background-color: yellow;
+    grid-area: 10/5 / 15/6;
+}
+
+#div27 {
+    background-color: red;
+    grid-area: 13/6 / 15/9;
+}
+
+#div28 {
+    background-color: white;
+    grid-area: 10/6 / 13/11;
+}
+
+#div29 {
+    background-color: black;
+    grid-area: 13/9 / 15/14;
+}
+
+#div30 {
+    background-color: white;
+    grid-area: 10/11 / 13/14;
+}
+
+#div31 {
+    background-color: blue;
+    grid-area: 10/14 / 13/16;
+}
+
+#div32 {
+    background-color: yellow;
+    grid-area: 13/16 / 10/16;
+}
+
+#div33 {
+    background-color: white;
+    grid-area: 10/17 / 13/19;
+}
+
+#div34 {
+    background-color: white;
+    grid-area: 13/14 / 15/19;
+}
